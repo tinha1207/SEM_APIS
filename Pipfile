@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+pandas = "*"
+python-dotenv = "*"
+"mysql.connector" = "*"
+mysqlclient = "*"
+python-multipart = "*"
+openpyxl = "*"
+aiofiles = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
